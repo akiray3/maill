@@ -68,3 +68,5 @@ ans<- lm(`薬剤師数/10万人` ~ 薬局の従事者 + 医療施設の従事者
            その他の業務の従事者, data = B)
 summary(ans)
 
+#https://epirhandbook.com/jp/cleaning.html
+#na_ifの使い方について
